@@ -30,7 +30,7 @@ function create() {
   spaceKey = this.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.SPACE);
 
   // 🏆 Title
-  this.add.text(20, 10, "Lamumudotxyz moo moo moo! by 0xhon", {
+  this.add.text(20, 10, "Shrimpers take over szn!", {
     fontSize: "28px",
     fill: "#fff",
     fontStyle: "bold",
@@ -85,7 +85,7 @@ function create() {
     this.physics.pause();
     player.setTint(0xff0000);
     gameOver = true;
-    gameOverText.setText("Moooooooooo'ed");
+    gameOverText.setText("shrimp got fried!");
   });
 }
 
